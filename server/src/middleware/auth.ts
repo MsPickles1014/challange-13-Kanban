@@ -5,7 +5,7 @@ interface JwtPayload {
   username: string;
 }
 
-// TODO: verify the token exists and add the user data to the request object
+// TODO: verify the token exists and add the user data to the request object***Completed
 
 export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
  // Get the authorization header from the request
